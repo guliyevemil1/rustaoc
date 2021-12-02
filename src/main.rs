@@ -1,4 +1,4 @@
-mod day1;
+mod day2;
 
 use std::io;
 use std::io::Read;
@@ -13,5 +13,5 @@ fn main() {
         }
         input.push(String::from(buffer.trim()));
     }
-    println!("{}", day1::run2(input))
+    println!("{}", day2::run2(input))
 }
